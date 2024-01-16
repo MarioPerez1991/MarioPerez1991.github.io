@@ -1,4 +1,4 @@
-<h1 align="left"> Mario Pérez </h1>
+<h1 align="Center"> Mario A. Pérez Marabolí</h1>
 
 <h3 align="center">
 :link: Repo: <a href="https://github.com/MarioPerez1991/MarioPerez1991.github.io">https://github.com/MarioPerez1991/MarioPerez1991.github.io</a>
