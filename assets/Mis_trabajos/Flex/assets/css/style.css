@@ -1,0 +1,169 @@
+body {
+  margin: 0px;
+  padding: 0px;
+  max-width: 1280px;
+  /*eliminar borde*/
+  min-height: 100vh;
+  /* asegura el 100% de uso de la ventana*/
+  margin: auto;
+  /*centra el body horizontalmente*/
+  font-family: "Raleway", sans-serif;
+  font-size: 1rem;
+}
+
+/*Inicio Header*/
+
+header h2 {
+  margin: 0px;
+  padding: 0.5rem 0;
+  text-align: center;
+  font-size: 3.125rem;
+  background-color: black;
+  color: white;
+  font-weight: normal;
+}
+
+header div {
+  /*fondo de la parte superior*/
+  width: 1280px;
+  max-width: 100%;
+  /*hace que se utilice el 100% de acuerdo al ancho de la ventana*/
+  height: 727px;
+  max-height: 100%;
+  background-image: url(../img/bg-header.jpg);
+  background-size: cover;
+  /*la imagen abarca todo el contenedor*/
+  background-position: center;
+}
+
+/*Inicio Main*/
+
+main section {
+  height: 348px;
+}
+
+@media screen and (max-width: 982px) {
+  main section {
+    height: 100%;
+  }
+}
+
+/*Inicio Sección 1 (texto con foto de iguana a la derecha)*/
+
+.contenedor1 {
+  display: flex;
+  background-color: black;
+  color: white;
+}
+
+.contenedor1texto {
+  font-size: 1rem;
+  width: 475px;
+  height: 197px;
+  margin: 76px 106px 75px 150px;
+}
+
+@media screen and (max-width: 982px) {
+  .contenedor1texto {
+    height: 100%;
+  }
+}
+
+.contenedor1texto p {
+  margin: 0px;
+}
+
+.contenedor1imagen {
+  width: 549px;
+  margin: 45px 0px 66px 0px;
+  display: flex;
+  flex-basis: auto;
+}
+
+.contenedor1imagen img {
+  width: 399px;
+  height: 237px;
+  max-width: 100%;
+}
+
+/*Inicio Sección 2 (Características e íconos)*/
+
+.contenedor2 {
+  background-color: #1e1a13;
+  color: white;
+}
+
+.contenedor2 h2 {
+  text-align: center;
+  font-size: 2.5rem;
+  padding: 75px 0px 50px 0px;
+  margin: 0px;
+  font-weight: normal;
+}
+
+.contenedor2div {
+  display: flex;
+  justify-content: center;
+  gap: 80px;
+}
+
+.contenedor-icono-texto {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+  font-size: 1.5625rem;
+  flex-basis: 210px;
+}
+
+@media screen and (max-width: 440px) {
+  .contenedor2div {
+    display: flex;
+    flex-direction: column;
+  }
+}
+
+/*Inicio Sección 3 (Galería de imágenes)*/
+
+.contenedor3 {
+  display: flex;
+  flex-wrap: wrap;
+  background-color: black;
+  justify-content: center;
+  gap: 1rem;
+}
+
+.contenedor3 img {
+  width: 100%;
+  max-width: 316px;
+  height: auto;
+  padding: 73px 0px;
+}
+
+/*Inicio Footer*/
+
+footer p {
+  margin: 0px;
+}
+
+footer {
+  display: flex;
+  justify-content: center;
+  gap: 1.25rem;
+  background-color: #1e1a13;
+  color: white;
+  font-size: 1.25rem;
+  padding: 39px;
+}
+
+footer a {
+  color: white;
+}
+
+a:hover {
+  color: green;
+}
+
+a:visited {
+  color: grey;
+}

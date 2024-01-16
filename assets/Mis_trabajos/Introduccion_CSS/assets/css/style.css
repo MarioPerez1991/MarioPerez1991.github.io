@@ -1,0 +1,42 @@
+* {
+    margin: 0px;
+    border: 0px;
+    padding: 0px;
+}
+
+body {
+    font-family: 'Times New Roman', Times, serif;
+}
+
+.seccion1 {
+    padding: 60px 150px;
+    color: white;
+    font-size: 1.8rem;
+    font-weight: 800;
+    background-image: url(../imgs/fondo.jpg);
+    background-size: auto;
+    background-repeat: no-repeat;
+    background-position: auto ;
+}
+
+.seccion2 {
+    width: 70%;
+    margin: auto;
+    font-size: 1.7rem;
+}
+
+.borde {
+    border-bottom: 2px solid black;
+}
+
+.seccion2 img {
+    width: 300px;
+}
+
+.footer {
+    background-color: rgb(37, 56, 12);
+    color: white;
+    text-align: center;
+    font-size: 2rem;
+    padding: 1rem;
+}

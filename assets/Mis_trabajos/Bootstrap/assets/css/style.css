@@ -1,0 +1,43 @@
+:root {
+  --titulos: 212529;
+  --nav: light;
+}
+
+body {
+  font-family: "Roboto", sans-serif;
+  margin: 0px;
+  border: 0px;
+  padding: 0px;
+}
+
+.navimg {
+  width: 86px;
+  height: auto;
+}
+
+/*Texto nav*/
+.colornav {
+  color: var(--nav);
+}
+
+/*Título tarjetas*/
+.colortitulo {
+  color: var(--titulos);
+}
+
+/*Dirección tarjetas*/
+.colordireccion {
+  color: #707070;
+}
+
+.footerimg {
+  width: 82px;
+  height: auto;
+}
+
+/*Reacción botón enviar*/
+.pseudo-clase:hover {
+  background-color: black;
+  color: white;
+  border: 1px solid black;
+}
